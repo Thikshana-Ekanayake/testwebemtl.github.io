@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("bg4.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+    
+}
+
+.bookform{
+    width:800px;
+    background-color: rgba(0, 255, 255, 0.731);
+    margin: auto;
+    color:#FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.6);
+    width:800px;
+    margin:auto;
+}
+
+form{
+    padding: 10px;
+
+}
+
+#name{
+    width:100%;
+    height:100%;
+
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firstname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+
+}
+
+.lastname{
+    position: relative;
+    left: 417px;
+    top: -80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+
+}
+
+.firstlabel{
+    position: relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top:-45px;
+}
+
+.lastlabel{
+    position: relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 175px;
+    top:-45px;
+
+}
+
+.common{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width:480px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555; 
+
+}
+
+.code{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width:45px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+
+}
+
+.number{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width:300px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+
+}
+
+.area-code{
+    position: relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 108px;
+    top:-4px;
+
+
+}
+
+.phone-no{
+    position: relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -145px;
+    top:-4px;
+    
+}
+
+.booking{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+
+}
+
+.in{
+    position: relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 20px;
+    top:-4px;
+
+}
+
+.out{
+    position: relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 20px;
+    top:-4px;
+
+}
+
+#rooms{
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+}
+
+.radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+
+.radio input{
+    width:15px;
+    height: 15px;
+    border-radius: 30%;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.4);
+    display: block;
+    margin: 20px 0px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 60px;
+    border: 2px solid white;
+    padding: 10px 30px;
+    outline: none;
+    color:white ;
+    font-weight:500;
+    cursor: pointer;
+    font-size: 15px;
+    
+    
+    transition: 0.25px;
+    
+}
+
+.cont{
+    background-color: rgba(0, 0, 0, 0.475);
+    
+}
+  .pic img{
+    
+    width:40px;
+    height:40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+
+  }
+  .pic1 img{
+    
+    width:40px;
+    height:40px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 5px;
+
+  }
+  .tex{
+    
+    color:white;
+    font-family: arial;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+
+  }
+    
+
+
+button:hover{
+    background-color: rgb(255, 255, 152);
+
+}
+
+
+
+
+
+
+
+
+</style>

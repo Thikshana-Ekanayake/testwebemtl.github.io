@@ -1,0 +1,92 @@
+body{
+    background:url("background.jpg");
+}
+
+
+
+table{
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+.fb{
+    padding-left: 1%;
+    padding-right: 50%;
+}
+
+.new{
+    color:  rgb(255, 255, 142);
+    font-family: arial;
+    padding-left: 10%;
+   
+    font-size: 25pt;
+    font-weight: lighter;
+    letter-spacing: 20px;
+    line-height: 10px;
+}
+
+
+
+h2{
+    color: rgb(255, 255, 142);
+    font-family: arial;
+    padding-left: 3%;
+    font-size: 20px;
+    
+}
+ h2{
+    padding-left: 28%;
+    padding-right: 5%;
+    color: azure;
+    font-family: arial narrow,sans serif;
+ }
+
+ .mid{
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+
+
+   
+   
+
+img{
+    width: 350px;
+    height:300px;
+}
+
+.pic{
+    width: 300px;
+    height:300px;
+
+}
+
+nav{
+display: flex;
+width:84%;
+margin:auto;
+padding:15px 0;
+align-items: center;
+justify-content: space-between;
+}
+
+nav ul li{
+display:inline-block;
+list-style: none;
+margin: 5px 10px;
+}
+
+nav ul li a{
+text-decoration: none;
+color:rgb(135, 205, 232);
+font-family: arial narrow,sans serif;
+font-weight:bold ;
+font-size: 17px;
+
+}
+
+nav ul li a:hover{
+color:rgb(237, 237, 186);
+
+

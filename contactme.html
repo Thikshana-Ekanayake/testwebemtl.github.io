@@ -1,0 +1,135 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Contact Me</title>
+       
+<script>
+       function validateForm() {
+        let x = document.forms["myform"]["fname"].value;
+        if (x == "") {
+          alert("First Name must be filled out");
+          return false;
+        }
+      }
+
+      function validateForm() {
+        let x = document.forms["myform"]["lname"].value;
+        if (x == "") {
+          alert(" Last Name must be filled out");
+          return false;
+        }
+      }
+        
+
+      function validateForm() {
+        let x = document.forms["myform"]["email"].value;
+        if (x == "") {
+          alert(" email must be filled out");
+          return false;
+        }
+      }
+    </script>
+
+<link rel="stylesheet" type="text/css" href="contactstyle.css">
+
+    </head>
+
+    <body>
+
+
+        <div class="bookform"><h1>C O N T A C T &nbsp;&nbsp;&nbsp;&nbsp; M E!</h1></div>
+        <div class="main">
+            <form name="myform"   onsubmit="return validateForm()"  >
+            <div id="name">
+
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text" name="fname"></input><br>
+                <label class="firstlabel">First Name</label>
+
+                <input class="lastname" type="text" name="lname"></input>
+                <label class="lastlabel">Last Name</label>
+
+            </div>
+
+
+            <h2 class="name">Email</h2>
+            <input class="common" type="text" name="email">
+
+            <h2 class="name">Message</h2>
+            <textarea class="common" cols="30"  rows="5 " name="message"></textarea>
+
+            <h2 class="name">Phone</h2>
+            <input class="code" type="text" name="area_code">
+            <lable class="area-code">Area Code</lable>
+
+            <input class="number" type="text" name="phone">
+            <lable class="phone-no">Phone Number</lable>
+
+            
+                    <br><br><br>
+
+                    <button type="submit" value="submit">SUBMIT</button>
+                  
+
+
+                    <div class="cont">
+                     <center><table>
+                        <tr>
+                            <center><td class="pic1"><img src="cont1.png"></td></center>
+                            <center><td class="pic" ><img src="cont2.png"></td></center
+                            <center><td class="pic1"><img src="cont3.png"></td></center>
+
+
+                        </tr>
+
+
+                        <tr>
+                            <center><td class="tex">+9431246579</td></center>
+                            <center><td class="tex" >Kandy</td></center
+                            <center><td class="tex">lanka@gmail.com</td></center>
+                            
+
+
+                        </tr>
+                       
+                        
+
+                        
+
+                     </table></center>
+
+
+                    </div>
+
+
+
+
+        
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </form>
+
+
+
+
+
+
+        </div>
+
+    </body>
+
+</html>
